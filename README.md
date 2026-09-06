@@ -308,19 +308,3 @@ https://github.com/user-attachments/assets/9de1edca-34e6-4d84-9299-07b7b20ac8f6
     <img width="1467" height="957" alt="image" src="https://github.com/user-attachments/assets/f402b15b-a9f4-4e52-84a5-113ad75992d2" />
 
     </details>
-
----
-
-## 5. Automatización E2E (complemento del challenge)
-
-Además del testing exploratorio, se dejó un **proyecto mínimo de Playwright (JavaScript)** para mostrar criterio de automatización: un único flujo E2E de **login** sobre [Giftitto QA](https://giftitto-qa.vercel.app/), con Page Object Model simplificado (`pages/loginPage.js` + `tests/login.spec.js`).
-
-No pretende ser una suite completa. Cubre el happy path de autenticación (credenciales demo `demo@giftitto.com` / `demo123`) y valida que la sesión queda activa vía `GET /api/usuario/me`, sin depender del estado del navbar (ver **BUG-03**).
-
-```bash
-npm install
-npx playwright install chromium
-npm test
-```
-
-`npm run test:headed` abre el browser; `npm run test:report` muestra el reporte HTML.
