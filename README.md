@@ -49,10 +49,12 @@ Se realizó una sesión de testing exploratorio y funcional sobre la plataforma 
 - Redirigir a usuarios no autenticados a `/login?redirect=/cuenta`.
 
 <details>
-<summary>🎥 Ver evidencia en video </summary>
-  
+<summary><b>🎥 <code>VER EVIDENCIA EN VIDEO (CLICK AQUÍ PARA DESPLEGAR)</code></b></summary>
+<br>
+
 https://github.com/user-attachments/assets/9de1edca-34e6-4d84-9299-07b7b20ac8f6
-  
+
+<br>
 </details>
 
 ---
@@ -77,10 +79,12 @@ https://github.com/user-attachments/assets/9de1edca-34e6-4d84-9299-07b7b20ac8f6
 - El endpoint que se consulta en "Mi cuenta" -> "Mis Giftcards", debe retornar todas las giftcards asociadas al usuario.
 
 <details>
-<summary>🎥 Ver evidencia en video </summary>
-  
-https://github.com/user-attachments/assets/cc6365e9-ab7f-4653-be23-e4f3a02a5b30
+<summary><b>🎥 <code>VER EVIDENCIA EN VIDEO (CLICK AQUÍ PARA DESPLEGAR)</code></b></summary>
+<br>
 
+  https://github.com/user-attachments/assets/cc6365e9-ab7f-4653-be23-e4f3a02a5b30
+
+<br>
 </details>
 
 ---
@@ -104,10 +108,12 @@ https://github.com/user-attachments/assets/cc6365e9-ab7f-4653-be23-e4f3a02a5b30
 - La API de checkout debe iterar y generar la matriz completa de cupones según la cantidad recibida en el payload de la transacción.
 
 <details>
-<summary>🎥 Ver evidencia en video </summary>
+<summary><b>🎥 <code>VER EVIDENCIA EN VIDEO (CLICK AQUÍ PARA DESPLEGAR)</code></b></summary>
+<br>
   
   https://github.com/user-attachments/assets/70974ad6-8938-4741-bc81-3a860f689fcf
   
+<br>
 </details>
 
 ---
@@ -131,10 +137,12 @@ https://github.com/user-attachments/assets/cc6365e9-ab7f-4653-be23-e4f3a02a5b30
 - El contexto de la sesión debe cambiar de manera reactiva al recibir la respuesta `200 OK` del endpoint de Login.
 
 <details>
-<summary>🎥 Ver evidencia en video </summary>
+<summary><b>🎥 <code>VER EVIDENCIA EN VIDEO (CLICK AQUÍ PARA DESPLEGAR)</code></b></summary>
+<br>
   
-https://github.com/user-attachments/assets/43376011-ca54-4250-b08e-924bf5612443
-
+  https://github.com/user-attachments/assets/43376011-ca54-4250-b08e-924bf5612443
+  
+<br>
 </details>
 
 ---
@@ -155,10 +163,12 @@ https://github.com/user-attachments/assets/43376011-ca54-4250-b08e-924bf5612443
 - Controlar el disparador del efecto secundario en la vista de Login para garantizar un único llamado al montar el componente / vista.
 
 <details>
-<summary>🎥 Ver evidencia en video </summary>
+<summary><b>🎥 <code>VER EVIDENCIA EN VIDEO (CLICK AQUÍ PARA DESPLEGAR)</code></b></summary>
+<br>
   
-https://github.com/user-attachments/assets/450d377a-19a2-467f-98d5-eba0a2d5b3c9
-
+  https://github.com/user-attachments/assets/450d377a-19a2-467f-98d5-eba0a2d5b3c9
+  
+<br>
 </details>
 
 <details>
@@ -188,10 +198,12 @@ https://github.com/user-attachments/assets/450d377a-19a2-467f-98d5-eba0a2d5b3c9
 - Manejar la respuesta HTTP del backend y mapear un mensaje de error accesible visible en el formulario.
 
 <details>
-<summary>🎥 Ver evidencia en video </summary>
+<summary><b>🎥 <code>VER EVIDENCIA EN VIDEO (CLICK AQUÍ PARA DESPLEGAR)</code></b></summary>
+<br>
   
-https://github.com/user-attachments/assets/f5f4b2bd-704c-4130-8f8f-c80211b77325
-
+  https://github.com/user-attachments/assets/f5f4b2bd-704c-4130-8f8f-c80211b77325
+  
+<br>
 </details>
 
 ---
@@ -239,10 +251,12 @@ https://github.com/user-attachments/assets/f5f4b2bd-704c-4130-8f8f-c80211b77325
 - El estado temporal de confirmación (etiqueta "Copiado!" o toast informativo) debe aplicarse **únicamente** sobre el botón "Copiar código", manteniendo la etiqueta e icono del botón "Compartir" inalterados.
 
 <details>
-<summary>🎥 Ver evidencia en video </summary>
+<summary><b>🎥 <code>VER EVIDENCIA EN VIDEO (CLICK AQUÍ PARA DESPLEGAR)</code></b></summary>
+<br>
   
-https://github.com/user-attachments/assets/5da65e1f-1fb9-46a6-b03c-e7fb3e5f667e
-
+  https://github.com/user-attachments/assets/5da65e1f-1fb9-46a6-b03c-e7fb3e5f667e
+  
+<br>
 </details>
 
 ---
