@@ -10,6 +10,7 @@ Se realizó una sesión de testing exploratorio y funcional sobre la plataforma 
 * **Automatización E2E (Complemento):** Se adjunta un proyecto mínimo en **Playwright (JavaScript)** bajo el patrón *Page Object Model* (`pages/loginPage.js` + `tests/login.spec.js`). Cubre el *happy path* de login y valida la sesión activa vía `GET /api/usuario/me`.
 
 ```bash
+- Modo de ejecución:
 npm install
 npx playwright install chromium
 npm test               # Ejecución headless
