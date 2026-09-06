@@ -1,10 +1,21 @@
 # QA Technical Challenge — Giftitto
 
 ## 1. Estrategia & Enfoque de Pruebas
+
 Se realizó una sesión de testing exploratorio y funcional sobre la plataforma web [Giftitto QA](https://giftitto-qa.vercel.app/).
 
-- **Ámbito de prueba:** Flujos de catálogo, autenticación, control de acceso, proceso transaccional de compra, gestión de sesión y consistencia de datos en la cuenta de usuario.
-- **Criterio de priorización:** Se utilizó una matriz basada en la **Severidad** y la **Prioridad de Negocio**
+* **Ámbito de prueba:** Flujos de catálogo, autenticación, control de acceso, proceso transaccional de compra, gestión de sesión y consistencia de datos en la cuenta de usuario.
+* **Criterio de priorización:** Se utilizó una matriz basada en la **Severidad** y la **Prioridad de Negocio**.
+* **Evidencias:** La mayoría de las incidencias incorporan evidencias visuales (capturas y/o videos demostrativos) integradas en bloques desplegables para facilitar su reproducción.
+* **Automatización E2E (Complemento):** Se adjunta un proyecto mínimo en **Playwright (JavaScript)** bajo el patrón *Page Object Model* (`pages/loginPage.js` + `tests/login.spec.js`). Cubre el *happy path* de login y valida la sesión activa vía `GET /api/usuario/me`.
+
+```bash
+npm install
+npx playwright install chromium
+npm test               # Ejecución headless
+npm run test:headed    # Abre navegador
+npm run test:report    # Muestra reporte HTML
+```
 
 ---
 
